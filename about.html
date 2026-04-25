@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B'sinceré — About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Lato', sans-serif; background-color: #fdf6ee; color: #3b2a1a; }
+
+        header {
+            background-color: #3b2a1a;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 { font-family: 'Cormorant Garamond', serif; font-size: 28px; color: #fdf6ee; margin: 0; }
+        .nav-links a {
+            text-decoration: none;
+            color: #fdf6ee;
+            margin-left: 20px;
+            font-weight: 400;
+            font-size: 12px;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover { color: #c9a84c; }
+
+        .page-hero { background-color: #3b2a1a; color: #fdf6ee; text-align: center; padding: 80px 20px; }
+        .page-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: 48px; font-style: italic; margin-bottom: 10px; }
+        .section-padding { padding: 80px 40px; text-align: center; }
+        .badge { color: #c9a84c; text-transform: uppercase; font-size: 12px; letter-spacing: 2px; font-weight: bold; margin-bottom: 15px; display: block; }
+        h2 { font-family: 'Cormorant Garamond', serif; font-size: 36px; margin-bottom: 20px; }
+        .sub-text { max-width: 800px; margin: 0 auto 50px; line-height: 1.8; font-size: 18px; }
+        .grid-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; max-width: 1200px; margin: 0 auto; }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px 30px;
+            width: 280px;
+            box-shadow: 0 4px 15px rgba(59, 42, 26, 0.05);
+            border: 1px solid #f5e6d0;
+            transition: transform 0.3s ease;
+        }
+        .card:hover { transform: translateY(-10px); }
+        .card i { font-size: 40px; color: #c9a84c; margin-bottom: 20px; }
+        .card h3 { font-family: 'Cormorant Garamond', serif; font-size: 22px; margin-bottom: 15px; }
+        .card p { font-size: 15px; line-height: 1.5; color: #554433; }
+
+        .values-section { background-color: #3b2a1a; color: #fdf6ee; }
+        .values-section h2 { color: #fdf6ee; }
+        .values-section .card { background-color: #fdf6ee; color: #3b2a1a; }
+
+        footer { background-color: #3b2a1a; padding: 60px 20px; text-align: center; border-top: 2px solid #c9a84c; }
+        footer p { color: #fdf6ee; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>B'sinceré</h1>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop-bundles.html">Shop Bundles</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="page-hero">
+        <h1>Our Story</h1>
+        <p>Maintaining Authenticity through every strand.</p>
+    </div>
+
+    <div class="section-padding">
+        <h2>Our Journey</h2>
+        <p class="sub-text">Founded in 2024, B'sinceré was born from a passion for authentic beauty and a desire to empower individuals to express themselves through their hair.</p>
+    </div>
+
+    <div class="section-padding values-section">
+        <span class="badge">What We Stand For</span>
+        <h2>Our Values</h2>
+        <div class="grid-container">
+            <div class="card">
+                <i class="fas fa-heart"></i>
+                <h3>Made with Love</h3>
+                <p>Every piece is handpicked with care, attention, and genuine love for our customers.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-certificate"></i>
+                <h3>Premium Quality</h3>
+                <p>Every strand, bundle, and wig meets our rigorous quality standards.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 B'sinceré — Maintaining Authenticity. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

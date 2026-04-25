@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us - B'sinceré</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+         body {
+              font-family: 'Lato', sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: #fdf6ee;
+              color: #3b2a1a; 
+         }
+            header {
+                background-color: #3b2a1a;
+                padding: 20px 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+            header h1 {
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 28px;
+                margin: 0;
+                color: #fdf6ee;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fdf6ee;
+                margin-left: 20px;
+                font-weight: 400;
+                font-size: 12px;
+                transition: color 0.3s;
+            }
+            nav a:hover {
+                color: #c9a84c;
+            }
+            
+       
+.product-container {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.badge {
+    color: #c9a84c;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(59, 42, 26, 0.05);
+    transition: transform 0.3s ease;
+    border: 1px solid #f5e6d0;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+
+.image-box {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fdf6ee;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.product-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: #3b2a1a;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 20px;
+    color: #c9a84c;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+.buy-btn {
+    background-color: #3b2a1a;
+    color: #fdf6ee;
+    border: none;
+    padding: 12px 25px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #c9a84c;
+}
+ footer { background-color: #3b2a1a; border-top: 2px solid #c9a84c; padding: 60px 40px 30px; }
+    .footer-top { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; margin-bottom: 40px; }
+    .footer-brand h3 { font-family: 'Cormorant Garamond', serif; font-size: 28px; color: #c9a84c; font-style: italic; margin-bottom: 10px; }
+    .footer-brand p { color: #c4a882; font-size: 13px; line-height: 1.8; max-width: 240px; font-weight: 300; }
+    .footer-col h4 { color: #c9a84c; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; }
+    .footer-col a { display: block; color: #c4a882; text-decoration: none; font-size: 13px; margin-bottom: 10px; transition: color 0.3s; }
+    .footer-col a:hover { color: #c9a84c; }
+    .footer-col p { color: #c4a882; font-size: 13px; margin-bottom: 10px; }
+    .social-icons { display: flex; gap: 12px; margin-top: 6px; }
+    .social-icons a { width: 38px; height: 38px; border: 1px solid rgba(201,168,76,0.3); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #c9a84c; font-size: 15px; transition: all 0.3s; text-decoration: none; }
+    .social-icons a:hover { background-color: #c9a84c; color: #3b2a1a; }
+    .footer-bottom { border-top: 1px solid rgba(201,168,76,0.15); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-bottom p { color: #6b4c35; font-size: 12px; letter-spacing: 1px; }
+
+    </style>
+<body>
+     <header>
+    <h1>B'sinceré</h1>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop-bundles.html">Shop Bundles</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+       <div class="product-container">
+    <div class="product-header">
+        <span class="badge">Our Collection</span>
+        <h2>Luxury Hair & Bundles</h2>
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="image-box">
+                <img src="66.jpg" alt="Premium Bundle">
+            </div>
+            <h3>Straight Brazilian Bundle</h3>
+            <p>100% Sincere Human Hair</p>
+            <span class="price">₦45,000</span>
+            <button class="buy-btn">View Details</button>
+        </div>
+
+        <div class="product-card">
+            <div class="image-box">
+                <img src="Hair by Riana.jpg" alt="Luxury Wig">
+            </div>
+            <h3>Deep Wave Frontal Wig</h3>
+            <p>HD Lace, Pre-plucked</p>
+            <span class="price">₦95,000</span>
+            <button class="buy-btn">View Details</button>
+        </div>
+
+        <div class="product-card">
+            <div class="image-box">
+                <img src="image for your next hair salon design ❤️😀.jpg" alt="Curly Bundle">
+            </div>
+            <h3>Water Curly Extensions</h3>
+            <p>Natural shine and bounce</p>
+            <span class="price">₦55,000</span>
+            <button class="buy-btn">View Details</button>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>B'sinceré</h3>
+        <p>Maintaining Authenticity through every strand. Premium hair products for the bold and beautiful.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="shop-bundles.html">Shop</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>📞 09129785284</p>
+        <p>📧 fadokunadebare9@gmail.com</p>
+        <p>📍 Kwara, Nigeria</p>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 B'sinceré — Maintaining Authenticity. All Rights Reserved.</p>
+      <p style="color:#c9a84c;font-size:11px;letter-spacing:1px">KWARA, NIGERIA</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+ 
